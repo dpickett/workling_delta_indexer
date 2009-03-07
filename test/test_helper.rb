@@ -18,5 +18,5 @@ require "workling/lib/workling/base"
 require 'workling_delta_indexer'
 
 class Test::Unit::TestCase
-
+  include RR::Adapters::TestUnit
 end
