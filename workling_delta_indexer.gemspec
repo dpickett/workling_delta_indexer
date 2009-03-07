@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{workling_delta_indexer}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dan Pickett"]
   s.date = %q{2009-03-07}
   s.email = %q{dpickett@enlightsolutions.com}
   s.extra_rdoc_files = ["README.rdoc", "LICENSE"]
-  s.files = ["README.rdoc", "lib/workling_delta_indexer.rb", "test/test_helper.rb", "test/workling_delta_indexer_test.rb", "LICENSE"]
+  s.files = ["README.rdoc", "VERSION.yml", "lib/workling_delta", "lib/workling_delta/indexer.rb", "lib/workling_delta/worker.rb", "lib/workling_delta_indexer.rb", "test/test_helper.rb", "test/workling_delta", "test/workling_delta/indexer_test.rb", "test/workling_delta/worker_test.rb", "LICENSE"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/dpickett/workling_delta_indexer}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
