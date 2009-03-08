@@ -9,6 +9,7 @@ begin
     gem.email = "dpickett@enlightsolutions.com"
     gem.homepage = "http://github.com/dpickett/workling_delta_indexer"
     gem.authors = ["Dan Pickett"]
+    gem.add_dependency "freelancing-god-thinking-sphinx", ">= 1.1.5"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
