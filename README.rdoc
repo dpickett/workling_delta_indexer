@@ -1,6 +1,6 @@
 = workling_delta_indexer
 
-Use workling to manage your delta indexing
+Use workling to manage your delta indexing with Pat Allan's Thinking Sphinx
 
 == How to Use
 
