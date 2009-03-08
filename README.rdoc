@@ -6,26 +6,20 @@ Use workling to manage your delta indexing
 
 Install the gem
 
-<pre>
-gem install dpickett-workling_delta_indexer
-</pre>
+  gem install dpickett-workling_delta_indexer
 
 Add the gem to your list of required gems in config/environment.rb
 
-<pre>
   config.gem "dpickett-workling_delta_indexer", 
     :lib => "workling_delta_indexer"
-</pre>
 
 Use WorklingDelta::Indexer as your Delta handler
 
-<pre>
   define_index do
     <index details>
 
     set_property :delta => WorklingDelta::Indexer
-</pre>
-
+  end
 
 == Copyright
 
