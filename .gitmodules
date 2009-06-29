@@ -1,0 +1,3 @@
+[submodule "vendor/workling"]
+	path = vendor/workling
+	url = git://github.com/purzelrakete/workling.git
