@@ -1,6 +1,6 @@
 = workling_delta_indexer
 
-Use workling to manage your delta indexing with Pat Allan's Thinking Sphinx
+Use workling to manage your delta indexing with "Pat Allan"[http://freelancing-gods.com/]'s "Thinking Sphinx"[http://github.com/freelancing-god/thinking-sphinx/tree/master]
 
 == How to Use
 
@@ -20,6 +20,10 @@ Use WorklingDelta::Indexer as your Delta handler
 
     set_property :delta => WorklingDelta::Indexer
   end
+
+== Documentation
+
+View the documentation at http://rdoc.info/projects/dpickett/workling_delta_indexer
 
 == Copyright
 
