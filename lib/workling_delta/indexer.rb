@@ -1,9 +1,9 @@
-# This is the class that that should be wired to your index configuration
-# @example definition in an index
-#   define_index do |index|
-#     set_property :delta => WorklingDelta::Indexer
-#   end
 module WorklingDelta
+  # This is the class that that should be wired to your index configuration
+  # @example definition in an index
+  #   define_index do |index|
+  #     set_property :delta => WorklingDelta::Indexer
+  #   end
   class Indexer < ThinkingSphinx::Deltas::DefaultDelta
     # Creates the worker that performs the delta indexing
     # @param model the class of that triggered the delta

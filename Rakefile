@@ -21,8 +21,16 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = 'workling_delta_indexer'
   rdoc.options << '--line-numbers' << '--inline-source'
-  rdoc.rdoc_files.include('README*')
+  rdoc.rdoc_files.include('README*', "LICENSE")
   rdoc.rdoc_files.include('lib/**/*.rb')
+end
+
+begin
+  require "YARD"
+  YARD::Rake::YardocTask.new do |t|
+  end
+rescue LoadError
+
 end
 
 require 'rake/testtask'
